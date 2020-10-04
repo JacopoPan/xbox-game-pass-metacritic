@@ -128,5 +128,5 @@ with open('ea-pass.txt', 'r+') as f:
 gameerrankings = {k: v for k, v in sorted(gameerrankings.items(), key=lambda item: item[1], reverse=True)}
 
 for k, v in gameerrankings.items():
-    print(k, v)
+    print(v, '\t', k)
 
