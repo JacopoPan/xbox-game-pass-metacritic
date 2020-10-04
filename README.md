@@ -16,6 +16,11 @@ $ cd xbox-game-pass-metacritic
 $ python parse.py
 ```
 
+## Limitations
+- No string "best matching"
+- Only searching Xbox 360 results if the Xbox One result page has no scores
+- Logging the top result on the page
+
 ## Output
 ```
 96 	 Mass Effect 2
